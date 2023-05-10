@@ -1,2 +1,1 @@
-# docs
-Archive documentation
+# Archive documentation
