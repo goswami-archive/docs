@@ -7,10 +7,13 @@
 * [Именование](archive-structure/naming.md)
 * [Структура](archive-structure/structure.md)
 
-***
+## Оформление текста <a href="#editing" id="editing"></a>
 
-* [Оформление текста](editing/README.md)
-  * [О семантической разметке](editing/semantics.md)
-  * [Markdown](editing/markdown.md)
-  * [Структура документа](editing/document-structure.md)
-  * [Вступительная часть YAML («YAML front matter»)](editing/yaml.md)
+* [О семантической разметке](editing/semantics.md)
+* [Markdown](editing/markdown.md)
+* [Структура документа](editing/document-structure.md)
+* [Вступительная часть YAML («YAML front matter»)](editing/yaml.md)
+* [«Горячии клавиши»](editing/shortcuts.md)
+* [Общие правила](editing/general/README.md)
+  * [Заголовки](editing/general/headings.md)
+  * [Пунктуация](editing/general/punctuation.md)
