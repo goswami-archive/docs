@@ -27,7 +27,7 @@
 Остальной текст...
 ```
 
-### \{{ anchor("strong") \}} **strong**
+### **strong**
 
 **Документация**: [оригинал](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-strong-element), [перевод](http://spec.piraruco.com/html5/text-level-semantics.htm#the-b-element)
 

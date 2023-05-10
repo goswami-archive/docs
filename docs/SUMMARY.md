@@ -26,4 +26,5 @@
 
 * [Программы](various/software/README.md)
   * [Программы для десктопа](various/software/desktop.md)
+  * [Онлайн редакторы](various/software/online.md)
 * [Лицензирование](various/licensing.md)
