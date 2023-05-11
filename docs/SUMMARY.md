@@ -2,14 +2,14 @@
 
 * [Главная](README.md)
 
+## Работа с архивом <a href="#working-with-archive" id="working-with-archive"></a>
+
+* [Git и GitHub](working-with-archive/git-github.md)
+
 ## Структура архива <a href="#archive-structure" id="archive-structure"></a>
 
 * [Структура](archive-structure/structure.md)
 * [Именование](archive-structure/naming.md)
-
-## Работа с архивом <a href="#working-with-archive" id="working-with-archive"></a>
-
-* [Git и Github](working-with-archive/git-github.md)
 
 ## Оформление текста <a href="#editing" id="editing"></a>
 
