@@ -1,12 +1,10 @@
 # Структура
 
-### Разделы
-
 Архив имеет следующие разделы:
 
-* **audios**
-* **articles**
-* **books**
+* audios
+* articles
+* books
 
 ### Раздел "audios"
 
