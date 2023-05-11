@@ -4,8 +4,8 @@
 
 ## Структура архива <a href="#archive-structure" id="archive-structure"></a>
 
-* [Именование](archive-structure/naming.md)
 * [Структура](archive-structure/structure.md)
+* [Именование](archive-structure/naming.md)
 
 ## Оформление текста <a href="#editing" id="editing"></a>
 
