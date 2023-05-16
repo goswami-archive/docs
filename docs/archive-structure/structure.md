@@ -2,9 +2,9 @@
 
 Архив имеет следующие разделы:
 
-* audios
-* articles
-* books
+* `audios`
+* `articles`
+* `books`
 
 ### :open\_file\_folder: audios
 
