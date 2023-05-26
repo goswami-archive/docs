@@ -17,7 +17,7 @@
   * [HTML](editing/semantics/html.md)
   * [Markdown](editing/markdown.md)
 * [Структура документа](editing/document-structure.md)
-  * [Вступительная часть YAML («YAML front matter»)](editing/yaml.md)
+  * [Заголовок YAML («YAML front matter»)](editing/yaml.md)
 * [«Горячии клавиши»](editing/shortcuts.md)
 * [Общие правила](editing/general/README.md)
   * [Заголовки](editing/general/headings.md)
