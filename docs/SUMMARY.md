@@ -18,7 +18,7 @@
   * [Markdown](editing/markdown.md)
 * [Структура документа](editing/document-structure.md)
   * [Заголовок YAML («YAML front matter»)](editing/yaml.md)
-* [«Горячии клавиши»](editing/shortcuts.md)
+* [«Горячие клавиши»](editing/shortcuts.md)
 * [Общие правила](editing/general/README.md)
   * [Заголовки](editing/general/headings.md)
   * [Пунктуация](editing/general/punctuation.md)
