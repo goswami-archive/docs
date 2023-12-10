@@ -4,6 +4,7 @@
 
 ## Работа с архивом <a href="#working-with-archive" id="working-with-archive"></a>
 
+* [Быстрый старт](working-with-archive/bystryi-start.md)
 * [Git и GitHub](working-with-archive/git-github.md)
 
 ## Структура архива <a href="#archive-structure" id="archive-structure"></a>
