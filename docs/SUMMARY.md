@@ -25,7 +25,7 @@
   * [Пунктуация](editing/general/punctuation.md)
 * [HTML-элементы](editing/html-elements.md)
 * [Дополнительные элементы](editing/custom-elements.md)
-* [Быстрый справочник по разметке](editing/usage-patterns.md)
+* [Быстрый справочник по разметке](editing/markup-quick-reference.md)
 
 ## Разное <a href="#various" id="various"></a>
 
