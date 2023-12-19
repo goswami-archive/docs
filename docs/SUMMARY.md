@@ -15,8 +15,6 @@
 ## Оформление текста <a href="#editing" id="editing"></a>
 
 * [О семантической разметке](editing/semantics.md)
-  * [HTML](editing/semantics/html.md)
-  * [Markdown](editing/markdown.md)
 * [«Горячие клавиши»](editing/shortcuts.md)
 * [Структура документа](editing/document-structure.md)
   * [Заголовок YAML («YAML front matter»)](editing/yaml.md)
