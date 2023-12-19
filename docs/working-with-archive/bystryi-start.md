@@ -4,6 +4,6 @@
 
 1. Создать аккаунт на [GitHub](https://github.com/signup).
 2. Создать копию ("клонировать", "сделать fork") репозитария с архивом в своём аккаунте. Главный репозитарий находиться по адресу [https://github.com/goswami-archive/archive](https://github.com/goswami-archive/archive).
-3. Внести свои изменения. Правила именования файлов/каталогов, а также правила оформления текста описаны в разделах [structure.md](../archive-structure/structure.md "mention") и [Broken link](broken-reference "mention").
+3. Внести свои изменения. Правила именования файлов/каталогов, а также правила оформления текста описаны в разделах [structure.md](../archive-structure/structure.md "mention") и [text-markup](../editing/text-markup/ "mention").
 4. Создать запрос на добавление своих изменений в главный репозитарий (pull request). Ваши изменения будут проверены и приняты, или отправлены на доработку с соответствующими коментариями.
 
