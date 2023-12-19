@@ -2,7 +2,7 @@
 
 ### Файлы
 
-Следует придерживаться следующего шаблона имени для аудиофайлов и текстовых файлов:
+Следует придерживаться следующего шаблона имени аудиофайлов и текстовых файлов:
 
 ```
 язык_дата_Название_Лекции.mp3
@@ -29,22 +29,19 @@ ru_2011-11-21_Deep_Feelings_of_the_Devotees.md
 язык_дата_p2_Название_Лекции
 ```
 
-**Примеры:**
-
 ```
-2011-11-21_Deep_Feelings_of_the_Devotees
-  ru_2011-11-21_Deep_Feelings_of_the_Devotees.md
-  en_2011-11-21_Deep_Feelings_of_the_Devotees.md
+ru_2011-01-08_p1_Copernican_Revolution.mp3
+ru_2011-01-08_p2_Copernican_Revolution.mp3
 ```
 
 ### Каталоги
 
 Файлы группируются в каталоги. Название каталога повторяет название лекции без указания языка.
 
-**Пример:**
-
 ```
 2011-11-21_Deep_Feelings_of_the_Devotees
+  ru_2011-11-21_Deep_Feelings_of_the_Devotees.mp3
   ru_2011-11-21_Deep_Feelings_of_the_Devotees.md
+  en_2011-11-21_Deep_Feelings_of_the_Devotees.mp3
   en_2011-11-21_Deep_Feelings_of_the_Devotees.md
 ```
