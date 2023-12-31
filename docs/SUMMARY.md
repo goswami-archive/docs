@@ -10,7 +10,7 @@
 ## Структура архива <a href="#archive-structure" id="archive-structure"></a>
 
 * [Структура директорий](archive-structure/directories.md)
-* [Именование](archive-structure/naming.md)
+* [Именование файлов](archive-structure/naming.md)
 
 ## Оформление текста <a href="#editing" id="editing"></a>
 
