@@ -1,6 +1,20 @@
 ---
-cover: .gitbook/assets/photo-1481627834876-b7833e8f5570.jpeg
-coverY: 0
+cover: .gitbook/assets/Untitled.jpg
+coverY: -47
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Главная
