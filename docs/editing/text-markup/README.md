@@ -62,7 +62,7 @@
 
 #### Блочное
 
-Используйте елемент <mark style="color:orange;">**`blockquote`**</mark> ([документация](https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element)) для оформления блочных цитат.
+Используйте елемент [<mark style="color:orange;">**`blockquote`**</mark>](https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element) для оформления блочных цитат.
 
 Элемент `blockquote` представляет содержимое, цитированное из другого источника. Используйте «круглые скобки» для указания источника, внутри елемента `blockquote`.
 
@@ -88,7 +88,7 @@
 
 #### Стихи на бенгали <a href="#visual-highlight" id="visual-highlight"></a>
 
-Для разметки стихов с особым бенгальским метром используйте елемент verse, и елемент gap для обозначения промежутков.
+Для разметки стихов с особым бенгальским метром используйте елемент <mark style="color:orange;">**`verse`**</mark>, и елемент <mark style="color:orange;">**`gap`**</mark> для обозначения промежутков.
 
 ```html
 <verse>
