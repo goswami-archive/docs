@@ -12,16 +12,16 @@
 * [Структура директорий](archive-structure/directories.md)
 * [Именование файлов](archive-structure/naming.md)
 
-## Оформление текста <a href="#editing" id="editing"></a>
+## Работа с документами <a href="#working-with-documents" id="working-with-documents"></a>
 
-* [О семантической разметке](editing/semantics.md)
-* [«Горячие клавиши»](editing/shortcuts.md)
-* [Структура документа](editing/document-structure.md)
-  * [Заголовок YAML («YAML front matter»)](editing/yaml.md)
-* [Пунктуация](editing/punctuation.md)
-* [Разметка текста](editing/text-markup/README.md)
-  * [Дополнительные элементы](editing/text-markup/custom-elements.md)
-* [Быстрый справочник по разметке](editing/markup-quick-reference.md)
+* [О семантической разметке](working-with-documents/semantics.md)
+* [«Горячие клавиши»](working-with-documents/shortcuts.md)
+* [Структура документа](working-with-documents/document-structure/README.md)
+  * [Заголовок YAML («YAML front matter»)](working-with-documents/document-structure/yaml.md)
+* [Пунктуация](working-with-documents/punctuation.md)
+* [Разметка текста](working-with-documents/text-markup/README.md)
+  * [Дополнительные элементы](working-with-documents/text-markup/custom-elements.md)
+* [Быстрый справочник по разметке](working-with-documents/markup-quick-reference.md)
 
 ## Разное <a href="#various" id="various"></a>
 
