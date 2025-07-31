@@ -2,11 +2,12 @@
 cover: .gitbook/assets/Untitled (2).jpg
 coverY: -47
 layout:
+  width: default
   cover:
     visible: true
     size: full
   title:
-    visible: true
+    visible: false
   description:
     visible: true
   tableOfContents:
@@ -14,6 +15,8 @@ layout:
   outline:
     visible: true
   pagination:
+    visible: true
+  metadata:
     visible: true
 ---
 
