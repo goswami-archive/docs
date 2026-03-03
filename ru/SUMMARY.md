@@ -2,10 +2,10 @@
 
 * [Home](README.md)
 
-## Работа с архивом
+## Начало работы <a href="#get-started" id="get-started"></a>
 
-* [Быстрый старт](rabota-s-arkhivom/bystryi-start.md)
-* [Git и GitHub](rabota-s-arkhivom/git-github.md)
+* [Быстрый старт](get-started/quick-start.md)
+* [Git и GitHub](get-started/git-github.md)
 
 ## Структура архива
 
