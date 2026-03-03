@@ -4,8 +4,8 @@
 
 ## Работа с архивом
 
-* [Быстрый старт](rabota-s-arkhivom/bystryi-start.md)
-* [Git и GitHub](rabota-s-arkhivom/git-github.md)
+* [Быстрый старт](working-with-archive/bystryi-start.md)
+* [Git и GitHub](working-with-archive/git-github.md)
 
 ## Структура архива
 
