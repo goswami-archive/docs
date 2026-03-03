@@ -1,14 +1,19 @@
-# Структура директорий
+# Archive structure
 
-Архив имеет следующие разделы:
+Archive has 2 main directories:
 
-* `audios`
-* `articles`
-* `books`
+* `content` - root for all content;
+* `tools`  - scripts for managing archive content (download, lint, search, rename etc.)
+
+### Content
+
+Archive content is splitted into next groups:&#x20;
+
+<table><thead><tr><th width="128.05859375">Directory</th><th>Description</th></tr></thead><tbody><tr><td><code>audios</code></td><td>Contains all audio lectures (audio and transcription)</td></tr><tr><td><code>playlists</code></td><td>Stores playlists information</td></tr><tr><td><code>articles</code></td><td>Stores articles</td></tr><tr><td><code>books</code></td><td>Stoes books</td></tr></tbody></table>
 
 ### :open\_file\_folder: audios
 
-Раздел содержит аудиозаписи и их текстовые расшифровки (транскрипции). Раздел также может содержать дополнительные материалы, например обложки аудио, описание раздела  и т.д.&#x20;
+Раздел содержит аудиозаписи и их текстовые расшифровки (транскрипции). Раздел также может содержать дополнительные материалы, например обложки аудио, описание раздела и т.д.
 
 Файлы `.md` содержат транскрипцию соответстующих аудио-файлов. Структура файла описана в разделе ["Структура документа"](../working-with-documents/document-structure/).
 
