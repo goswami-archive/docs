@@ -3,6 +3,6 @@ cover: .gitbook/assets/Untitled (2).jpg
 coverY: -47
 ---
 
-# Главная
+# Home
 
-Данный ресурс является руководством по работе с архивом Бхакти Судхира Госвами.
+Current resource is a guide on working with an archive of Bhakti Sudhir Goswami.

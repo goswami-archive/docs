@@ -1,31 +1,32 @@
 # Table of contents
 
-* [Главная](README.md)
+* [Home](README.md)
 
-## Работа с архивом <a href="#working-with-archive" id="working-with-archive"></a>
+## Работа с архивом
 
-* [Быстрый старт](working-with-archive/bystryi-start.md)
-* [Git и GitHub](working-with-archive/git-github.md)
+* [Быстрый старт](rabota-s-arkhivom/bystryi-start.md)
+* [Git и GitHub](rabota-s-arkhivom/git-github.md)
 
-## Структура архива <a href="#archive-structure" id="archive-structure"></a>
+## Структура архива
 
-* [Структура директорий](archive-structure/directories.md)
-* [Именование файлов](archive-structure/naming.md)
+* [Структура директорий](struktura-arkhiva/directories.md)
+* [Именование файлов](struktura-arkhiva/naming.md)
 
-## Работа с документами <a href="#working-with-documents" id="working-with-documents"></a>
+## Working With Documents
 
-* [О семантической разметке](working-with-documents/semantics.md)
 * [«Горячие клавиши»](working-with-documents/shortcuts.md)
+* [О семантической разметке](working-with-documents/semantics.md)
 * [Структура документа](working-with-documents/document-structure/README.md)
   * [Заголовок YAML («YAML front matter»)](working-with-documents/document-structure/yaml.md)
 * [Пунктуация](working-with-documents/punctuation.md)
-* [Разметка текста](working-with-documents/text-markup/README.md)
+* [Text Markup](working-with-documents/text-markup/README.md)
   * [Дополнительные элементы](working-with-documents/text-markup/custom-elements.md)
 * [Быстрый справочник по разметке](working-with-documents/markup-quick-reference.md)
+* [Sanskrit And Bengali Transliteration](working-with-documents/sanskrit-and-bengali-transliteration.md)
 
-## Разное <a href="#various" id="various"></a>
+## Разное
 
-* [Программы](various/software/README.md)
-  * [Программы для десктопа](various/software/desktop.md)
-  * [Онлайн редакторы](various/software/online.md)
-* [Лицензирование](various/licensing.md)
+* [Программы](raznoe/software/README.md)
+  * [Программы для десктопа](raznoe/software/desktop.md)
+  * [Онлайн редакторы](raznoe/software/online.md)
+* [Лицензирование](raznoe/licensing.md)

@@ -1,4 +1,4 @@
-# Разметка текста
+# Text Markup
 
 ### Заголовки <a href="#headings" id="headings"></a>
 
@@ -58,13 +58,11 @@
 #00:06:20# <blockquote>...
 ```
 
-### Цитирование <a href="#quotation" id="quotation"></a>
+### Citations <a href="#citations" id="citations"></a>
 
-#### Блочное
+#### Full verse citations
 
-Используйте елемент [<mark style="color:orange;">**`blockquote`**</mark>](https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element) для оформления блочных цитат.
-
-Элемент `blockquote` представляет содержимое, цитированное из другого источника. Используйте «круглые скобки» для указания источника, внутри елемента `blockquote`.
+Use [`blockquote`](https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element) element for full verse citations. Use [`<cite>`](https://html.spec.whatwg.org/#the-cite-element) element right after `blockqoute` element to refer to citation source.
 
 ```html
 <blockquote>
@@ -72,8 +70,8 @@
 Всех ищет грозная... и некогда найдет;
 Всемощныя судьбы незыблемы уставы:
 И путь величия ко гробу нас ведет!
-(Томас Грей, элегия написанная на сельском кладбище)
 </blockquote>
+<cite>(Томас Грей, элегия написанная на сельском кладбище)</cite>
 ```
 
 ```html
@@ -82,8 +80,16 @@
 чхидйанте сарвва-самшайах 
 кшийанте часйа карммани, 
 майи дрште ‛кхилатмани 
-(«Шримад-Бхагаватам», 11.20.30)
 </blockquote>
+<cite>(«Шримад-Бхагаватам», 11.20.30)</cite>
+```
+
+#### Verse citations within running text
+
+Use [`q`](https://html.spec.whatwg.org/#the-q-element) element for vers ecitations within running text.
+
+```html
+<q>Chintāmaṇi-prakara-sadmasu…</q> <cite>(Brahma-saṁhitā 5.29)</cite>
 ```
 
 #### Стихи на бенгали <a href="#visual-highlight" id="visual-highlight"></a>
