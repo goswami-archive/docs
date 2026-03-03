@@ -6,11 +6,8 @@
 
 * [Quickstart](get-started/quick-start.md)
 * [Git and GitHub](get-started/git-and-github.md)
-
-## Структура архива
-
-* [Структура директорий](struktura-arkhiva/directories.md)
-* [Именование файлов](struktura-arkhiva/naming.md)
+* [Archive structure](get-started/archive-structure.md)
+* [Naming conventions](get-started/naming.md)
 
 ## Working With Documents
 
