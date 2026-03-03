@@ -2,10 +2,10 @@
 
 * [Home](README.md)
 
-## Работа с архивом <a href="#working-with-archive" id="working-with-archive"></a>
+## Get Started
 
-* [Быстрый старт](working-with-archive/quick-start.md)
-* [Git и GitHub](working-with-archive/git-github.md)
+* [Quickstart](get-started/quick-start.md)
+* [Git and GitHub](get-started/git-and-github.md)
 
 ## Структура архива
 
