@@ -7,41 +7,21 @@ Archive has 2 main directories:
 
 ### Content
 
-Archive content is splitted into next groups:
+Archive content is grouped by following types:
 
-<table>
-  <thead>
-    <tr>
-      <th width="125">Directory</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>audios</code></td>
-      <td>Stores all audio lectures.</td>
-    </tr>
-    <tr>
-      <td><code>playlists</code></td>
-      <td>Stores playlists information in Markdown format</td>
-    </tr>
-    <tr>
-      <td><code>articles</code></td>
-      <td>Stores articles</td>
-    </tr>
-    <tr>
-      <td><code>books</code></td>
-      <td>Stores books</td>
-    </tr>
-  </tbody>
-</table>
+* `audios` - stores all audio lectures
+* `playlists` - stores playlists information in Markdown format
+* `articles` - stores articles
+* `books` - stores books
 
-### :open\_file\_folder: audios
+### :open\_file\_folder: `audios` directory
 
-Most of the lectures are grouped by year. Others are grouped by source.
+Most of the lectures are grouped by year. Others are grouped by source. 
+This grouping represents some kind of categorization. 
+Category directory usually contains Markdown file with category metadata at it's root.
 
-Each lecture is represented by a directory.
-At a simpliest case this directory may contain only the Markdown file. 
+Each lecture is represented by a separate directory.
+At a simpliest case this directory may contain single Markdown file. 
 This file contains information on a lecture, transcription, and a path to local audio file or URL of a remote file.
 The structure of Markdown file is described in the ["Document structure"](../working-with-documents/document-structure/) section.
 
