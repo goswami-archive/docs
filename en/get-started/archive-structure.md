@@ -9,15 +9,41 @@ Archive has 2 main directories:
 
 Archive content is splitted into next groups:
 
-<table><thead><tr><th width="128.05859375">Directory</th><th>Description</th></tr></thead><tbody><tr><td><code>audios</code></td><td>Contains all audio lectures (audio and transcription)</td></tr><tr><td><code>playlists</code></td><td>Stores playlists information</td></tr><tr><td><code>articles</code></td><td>Stores articles</td></tr><tr><td><code>books</code></td><td>Stoes books</td></tr></tbody></table>
+<table>
+  <thead>
+    <tr>
+      <th width="125">Directory</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>audios</code></td>
+      <td>Stores all audio lectures.</td>
+    </tr>
+    <tr>
+      <td><code>playlists</code></td>
+      <td>Stores playlists information in Markdown format</td>
+    </tr>
+    <tr>
+      <td><code>articles</code></td>
+      <td>Stores articles</td>
+    </tr>
+    <tr>
+      <td><code>books</code></td>
+      <td>Stores books</td>
+    </tr>
+  </tbody>
+</table>
 
 ### :open\_file\_folder: audios
 
-This section contains audio lectures and their transcriptions in Markdown format. This section can also contain additional materials, such as audio covers, audio metadata and so on.
+Most of the lectures are grouped by year. Others are grouped by source.
 
-Most of the lectures grouped by year. Others are grouped by source.
-
-Files with `.md` extension contain transcriptions of corresponding audio files. The structure of the file is described in the ["Document structure"](../working-with-documents/document-structure/) section.
+Each lecture is represented by a directory.
+At a simpliest case this directory may contain only the Markdown file. 
+This file contains information on a lecture, transcription, and a path to local audio file or URL of a remote file.
+The structure of Markdown file is described in the ["Document structure"](../working-with-documents/document-structure/) section.
 
 Section has the following structure:
 
@@ -41,12 +67,12 @@ year
 
 **Example:**
 
-```
+```text
 2011
-  en_2011_cover.jpg
-  ru_2011_cover.jpg
   en_2011.md
   ru_2011.md
+  en_2011_cover.jpg
+  ru_2011_cover.jpg
 
   2011-11-21_Deep_Feelings_of_the_Devotees
     en_2011-11-21_Deep_Feelings_of_the_Devotees.mp3
