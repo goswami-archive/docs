@@ -3,40 +3,43 @@
 Archive has 2 main directories:
 
 * `content` - root for all content;
-* `tools`  - scripts for managing archive content (download, lint, search, rename etc.)
+* `tools` - scripts for managing archive content (download, lint, search, rename etc.)
 
 ### Content
 
-Archive content is splitted into next groups:&#x20;
+Archive content is splitted into next groups:
 
 <table><thead><tr><th width="128.05859375">Directory</th><th>Description</th></tr></thead><tbody><tr><td><code>audios</code></td><td>Contains all audio lectures (audio and transcription)</td></tr><tr><td><code>playlists</code></td><td>Stores playlists information</td></tr><tr><td><code>articles</code></td><td>Stores articles</td></tr><tr><td><code>books</code></td><td>Stoes books</td></tr></tbody></table>
 
 ### :open\_file\_folder: audios
 
-Раздел содержит аудиозаписи и их текстовые расшифровки (транскрипции). Раздел также может содержать дополнительные материалы, например обложки аудио, описание раздела и т.д.
+This section contains audio lectures and their transcriptions in Markdown format. This section can also contain additional materials, such as audio covers, audio metadata and so on.
 
-Файлы `.md` содержат транскрипцию соответстующих аудио-файлов. Структура файла описана в разделе ["Структура документа"](../working-with-documents/document-structure/).
+Most of the lectures grouped by year. Others are grouped by source.
 
-Раздел имеет следующую структуру:
+Files with `.md` extension contain transcriptions of corresponding audio files. The structure of the file is described in the ["Document structure"](../working-with-documents/document-structure/) section.
+
+Section has the following structure:
+
+```text
+year
+  date_Lecture_Title
+    lang1_date_Lecture_Title.mp3
+    lang1_date_Lecture_Title.md
+    lang2_date_Lecture_Title.mp3
+    lang2_date_Lecture_Title.md
+
+  date_p1_Lecture_Title
+    lang_date_p1_Lecture_Title.mp3
+    lang_date_p1_Lecture_Title.md
+
+  date_p2_Lecture_Title
+    lang_date_p2_Lecture_Title.mp3
+    lang_date_p2_Lecture_Title.md
 
 ```
-год
-  дата_Название_Лекции
-    язык1_дата_Название_Лекции.mp3
-    язык1_дата_Название_Лекции.md
-    язык2_дата_Название_Лекции.mp3
-    язык2_дата_Название_Лекции.md
 
-  дата_p1_Название_Лекции
-    язык_дата_p1_Название_Лекции.mp3
-    язык_дата_p1_Название_Лекции.md
-
-  дата_p2_Название_Лекции
-    язык_дата_p2_Название_Лекции.mp3
-    язык_дата_p2_Название_Лекции.md
-```
-
-**Пример:**
+**Example:**
 
 ```
 2011
