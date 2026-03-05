@@ -31,46 +31,42 @@ The structure of Markdown file is described in the ["Document structure"](../wor
 
 ```text
 audios
-  year
-    date_Lecture_Title
-      lang1_date_Lecture_Title.mp3
-      lang1_date_Lecture_Title.md
-      lang2_date_Lecture_Title.mp3
-      lang2_date_Lecture_Title.md
-
-    date_p1_Lecture_Title
-      lang_date_p1_Lecture_Title.mp3
-      lang_date_p1_Lecture_Title.md
-
-    date_p2_Lecture_Title
-      lang_date_p2_Lecture_Title.mp3
-      lang_date_p2_Lecture_Title.md
-
+└── year
+    ├── date_Lecture_Title
+    │   ├── lang1_date_Lecture_Title.mp3
+    │   ├── lang1_date_Lecture_Title.md
+    │   ├── lang2_date_Lecture_Title.mp3
+    │   └── lang2_date_Lecture_Title.md
+    │
+    ├── date_p1_Lecture_Title
+    │   ├── lang_date_p1_Lecture_Title.mp3
+    │   └── lang_date_p1_Lecture_Title.md
+    │
+    └── date_p2_Lecture_Title
+        ├── lang_date_p2_Lecture_Title.mp3
+        └── lang_date_p2_Lecture_Title.md
 ```
 
 **Example:**
 
 ```text
 audios
-  2011
-    en_2011.md
-    ru_2011.md
-    en_2011_cover.jpg
-    ru_2011_cover.jpg
-
-    2011-11-21_Deep_Feelings_of_the_Devotees
-      en_2011-11-21_Deep_Feelings_of_the_Devotees.mp3
-      en_2011-11-21_Deep_Feelings_of_the_Devotees.md
-      ru_2011-11-21_Deep_Feelings_of_the_Devotees.mp3
-      ru_2011-11-21_Deep_Feelings_of_the_Devotees.md
-
-    2011-01-08_p1_Copernican_Revolution
-      en_2011-01-08_p1_Copernican_Revolution.mp3
-      en_2011-01-08_p1_Copernican_Revolution.md
-
-    2011-01-08_p2_Copernican_Revolution
-      en_2011-01-08_p2_Copernican_Revolution.mp3
-      en_2011-01-08_p2_Copernican_Revolution.md
+└── 2011
+  ├── en_2011.md
+  ├── ru_2011.md
+  ├── en_2011_cover.jpg
+  ├── ru_2011_cover.jpg
+  ├── 2011-11-21_Deep_Feelings_of_the_Devotees
+  │   ├── en_2011-11-21_Deep_Feelings_of_the_Devotees.mp3
+  │   ├── en_2011-11-21_Deep_Feelings_of_the_Devotees.md
+  │   ├── ru_2011-11-21_Deep_Feelings_of_the_Devotees.mp3
+  │   └── ru_2011-11-21_Deep_Feelings_of_the_Devotees.md
+  ├── 2011-01-08_p1_Copernican_Revolution
+  │   ├── en_2011-01-08_p1_Copernican_Revolution.mp3
+  │   └── en_2011-01-08_p1_Copernican_Revolution.md
+  └── 2011-01-08_p2_Copernican_Revolution
+    ├── en_2011-01-08_p2_Copernican_Revolution.mp3
+    └── en_2011-01-08_p2_Copernican_Revolution.md
 ```
 
 ### :open\_file\_folder: articles
