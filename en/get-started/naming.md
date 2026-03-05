@@ -2,7 +2,7 @@
 
 ## Directories
 
-Directories are grouping multiple translations of the same entity (lecture, article, etc.). The name of the directory is the same entity title, but omitting the language prefix.
+Directories group multiple translations of the same entity (lecture, article, etc.). Name of the directory is the same as entity title, but without a language prefix.
 
 ```text
 2011-11-21_Deep_Feelings_of_the_Devotees

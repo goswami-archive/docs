@@ -30,7 +30,7 @@ This directory contains all audio lectures.
 
 Most of the lectures are grouped by year. Others are grouped by source. 
 This grouping represents a kind of categorization. 
-Category directory usually contains Markdown file with category metadata at it's root.
+Category directory usually contains Markdown file with category metadata (title, description, image, etc.).
 
 Each lecture is stored in a separate directory.
 At a simpliest case this directory may contain single Markdown file. 
@@ -81,7 +81,7 @@ audios
 
 ### :open\_file\_folder: articles
 
-This directory contains all articles.
+This directory stores articles in Markdown format.
 Articles are grouped by year. Each article is stored in a dedicated directory.
 
 ```txt
