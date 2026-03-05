@@ -9,23 +9,25 @@ Archive has 2 main directories:
 
 Archive content is grouped by following types:
 
-* `audios` - stores all audio lectures
-* `playlists` - stores playlists information in Markdown format
-* `articles` - stores articles
-* `books` - stores books
+* `audios`
+* `playlists`
+* `articles`
+* `books`
 
-### :open\_file\_folder: `audios` directory
+### :open\_file\_folder: `audios`
+
+This directory contains all audio lectures.
 
 Most of the lectures are grouped by year. Others are grouped by source. 
-This grouping represents some kind of categorization. 
+This grouping represents a kind of categorization. 
 Category directory usually contains Markdown file with category metadata at it's root.
 
-Each lecture is represented by a separate directory.
+Each lecture is stored in a separate directory.
 At a simpliest case this directory may contain single Markdown file. 
 This file contains information on a lecture, transcription, and a path to local audio file or URL of a remote file.
 The structure of Markdown file is described in the ["Document structure"](../working-with-documents/document-structure/) section.
 
-Section has the following structure:
+`audios` section has the following structure:
 
 ```text
 year
@@ -71,22 +73,29 @@ year
 
 ### :open\_file\_folder: articles
 
-Раздел содержит статьи и имееет следующую структуру:
+This directory contains all articles.
+Articles are grouped by year. Each article is stored in a dedicated directory.
 
+```txt
+year
+  date_Article_Title
+    lang1_date_Article_Title.md
+    lang2_date_Article_Title.md
 ```
-год
-  дата_Название_Статьи
+
+### :open\_file\_folder: playlists
+
+This directory contains all playlists.
     язык1_дата_Название_Статьи.md
     язык2_дата_Название_Статьи.md
 ```
 
 ### :open\_file\_folder: books
 
-Раздел содержит книги и имееет следующую структуру:
+This directory contains all books.
 
-```
-год
-  год_название
-    язык1_год_Название_Книги.pdf
-    язык2_год_Название_Книги.pdf
+```text
+year_Book_Title
+  lang1_year_Book_Title.pdf
+  lang2_year_Book_Title.pdf
 ```
