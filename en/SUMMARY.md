@@ -23,7 +23,7 @@
 
 ## Разное
 
-* [Программы](raznoe/software/README.md)
-  * [Программы для десктопа](raznoe/software/desktop.md)
-  * [Онлайн редакторы](raznoe/software/online.md)
-* [Лицензирование](raznoe/licensing.md)
+* [Программы](various/software/README.md)
+  * [Программы для десктопа](various/software/desktop.md)
+  * [Онлайн редакторы](various/software/online.md)
+* [Лицензирование](various/licensing.md)

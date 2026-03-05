@@ -2,7 +2,7 @@
 
 ## Directories
 
-Directories are grouping multiple translations of the same entity (lecture, article, etc.). The name of the directory is the same as the name of the entity without the language prefix.
+Directories are grouping multiple translations of the same entity (lecture, article, etc.). The name of the directory is the same entity title, but omitting the language prefix.
 
 ```text
 2011-11-21_Deep_Feelings_of_the_Devotees
@@ -34,7 +34,7 @@ ru_2011-11-21_Deep_Feelings_of_the_Devotees.md
   * use only latin alphabet characters. Do not use punctuation and other special characters - comma, dash, apostrophe and so on;
   * do not use transliteration;
   * separate words with underscore;
-  * capitalize each word of entity title except of adverbs, prepositions and so on;
+  * capitalize each word title except of adverbs, prepositions and so on;
 * Metadata/transcription file extension is `.md` ([Markdown](../working-with-documents/semantics.md#markdown)).
 
 If the content is divided into several parts - the part number is specified in the following format:
