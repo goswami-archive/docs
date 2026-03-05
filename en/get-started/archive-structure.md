@@ -1,11 +1,21 @@
 # Archive structure
 
+```text
+goswami-archive
+├── content
+│   ├── audios
+│   ├── playlists
+│   ├── articles
+│   └── books
+└── tools
+```
+
 Archive has 2 main directories:
 
 * `content` - root for all content;
 * `tools` - scripts for managing archive content (download, lint, search, rename etc.)
 
-### Content
+### `content` directory
 
 Archive content is grouped by following types:
 
@@ -52,21 +62,21 @@ audios
 ```text
 audios
 └── 2011
-  ├── en_2011.md
-  ├── ru_2011.md
-  ├── en_2011_cover.jpg
-  ├── ru_2011_cover.jpg
-  ├── 2011-11-21_Deep_Feelings_of_the_Devotees
-  │   ├── en_2011-11-21_Deep_Feelings_of_the_Devotees.mp3
-  │   ├── en_2011-11-21_Deep_Feelings_of_the_Devotees.md
-  │   ├── ru_2011-11-21_Deep_Feelings_of_the_Devotees.mp3
-  │   └── ru_2011-11-21_Deep_Feelings_of_the_Devotees.md
-  ├── 2011-01-08_p1_Copernican_Revolution
-  │   ├── en_2011-01-08_p1_Copernican_Revolution.mp3
-  │   └── en_2011-01-08_p1_Copernican_Revolution.md
-  └── 2011-01-08_p2_Copernican_Revolution
-    ├── en_2011-01-08_p2_Copernican_Revolution.mp3
-    └── en_2011-01-08_p2_Copernican_Revolution.md
+    ├── en_2011.md
+    ├── ru_2011.md
+    ├── en_2011_cover.jpg
+    ├── ru_2011_cover.jpg
+    ├── 2011-11-21_Deep_Feelings_of_the_Devotees
+    │   ├── en_2011-11-21_Deep_Feelings_of_the_Devotees.mp3
+    │   ├── en_2011-11-21_Deep_Feelings_of_the_Devotees.md
+    │   ├── ru_2011-11-21_Deep_Feelings_of_the_Devotees.mp3
+    │   └── ru_2011-11-21_Deep_Feelings_of_the_Devotees.md
+    ├── 2011-01-08_p1_Copernican_Revolution
+    │   ├── en_2011-01-08_p1_Copernican_Revolution.mp3
+    │   └── en_2011-01-08_p1_Copernican_Revolution.md
+    └── 2011-01-08_p2_Copernican_Revolution
+        ├── en_2011-01-08_p2_Copernican_Revolution.mp3
+        └── en_2011-01-08_p2_Copernican_Revolution.md
 ```
 
 ### :open\_file\_folder: articles
@@ -76,10 +86,10 @@ Articles are grouped by year. Each article is stored in a dedicated directory.
 
 ```txt
 articles
-  year
-    date_Article_Title
-      lang1_date_Article_Title.md
-      lang2_date_Article_Title.md
+└── year
+    └── date_Article_Title
+        ├── lang1_date_Article_Title.md
+        └── lang2_date_Article_Title.md
 ```
 
 ### :open\_file\_folder: playlists
@@ -88,11 +98,11 @@ This directory stores playlists in Markdown format.
 
 ```text
 playlists
-  Playlist_Title
-    lang1_Playlist_Title.md
-    lang1_Playlist_Title.jpg
-    lang2_Playlist_Title.md
-    lang2_Playlist_Title.jpg
+└── Playlist_Title
+    ├── lang1_Playlist_Title.md
+    ├── lang1_Playlist_Title.jpg
+    ├── lang2_Playlist_Title.md
+    └── lang2_Playlist_Title.jpg
 ```
 
 ### :open\_file\_folder: books
@@ -101,7 +111,7 @@ This directory stores books.
 
 ```text
 books
-  year_Book_Title
-    lang1_year_Book_Title.pdf
-    lang2_year_Book_Title.pdf
+└── year_Book_Title
+    ├── lang1_year_Book_Title.pdf
+    └── lang2_year_Book_Title.pdf
 ```
