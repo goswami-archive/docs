@@ -11,15 +11,15 @@
 
 ## Working With Documents
 
-* [«Hotkeys»](working-with-documents/shortcuts.md)
-* [On Semantic Markup](working-with-documents/semantics.md)
-* [Document Structure](working-with-documents/document-structure/README.md)
+* [Shortcuts](working-with-documents/shortcuts.md)
+* [On semantic markup](working-with-documents/semantics.md)
+* [Document structure](working-with-documents/document-structure/README.md)
   * [YAML Front Matter («YAML front matter»)](working-with-documents/document-structure/yaml.md)
 * [Punctuation](working-with-documents/punctuation.md)
-* [Text Markup](working-with-documents/text-markup/README.md)
-  * [Custom Elements](working-with-documents/text-markup/custom-elements.md)
-* [Quick Reference](working-with-documents/markup-quick-reference.md)
-* [Sanskrit and Bengali Transliteration](working-with-documents/sanskrit-and-bengali-transliteration.md)
+* [Text markup](working-with-documents/text-markup/README.md)
+  * [Custom elements](working-with-documents/text-markup/custom-elements.md)
+* [Quick reference](working-with-documents/markup-quick-reference.md)
+* [Sanskrit and Bengali transliteration](working-with-documents/sanskrit-and-bengali-transliteration.md)
 
 ## Various
 

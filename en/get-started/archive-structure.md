@@ -85,9 +85,14 @@ year
 
 ### :open\_file\_folder: playlists
 
-This directory contains all playlists.
-    язык1_дата_Название_Статьи.md
-    язык2_дата_Название_Статьи.md
+This directory stores playlists in Markdown format.
+
+```text
+Playlist_Title
+  lang1_Playlist_Title.md
+  lang1_Playlist_Title.jpg
+  lang2_Playlist_Title.md
+  lang2_Playlist_Title.jpg
 ```
 
 ### :open\_file\_folder: books
