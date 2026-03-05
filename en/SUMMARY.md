@@ -21,9 +21,9 @@
 * [Быстрый справочник по разметке](working-with-documents/markup-quick-reference.md)
 * [Sanskrit And Bengali Transliteration](working-with-documents/sanskrit-and-bengali-transliteration.md)
 
-## Разное
+## Various
 
-* [Программы](various/software/README.md)
-  * [Программы для десктопа](various/software/desktop.md)
-  * [Онлайн редакторы](various/software/online.md)
-* [Лицензирование](various/licensing.md)
+* [Software](various/software/README.md)
+  * [Desktop](various/software/desktop.md)
+  * [Online](various/software/online.md)
+* [Content licensing](various/licensing.md)
