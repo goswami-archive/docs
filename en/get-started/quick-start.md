@@ -1,9 +1,8 @@
-# Быстрый старт
+# Quick start
 
-Чтобы сделать свой вклад в архив, нужно выполнить следующие действия:
+To contribute to the archive, you need to perform the following actions:
 
-1. Создать аккаунт на [GitHub](https://github.com/signup).
-2. Создать копию ("клонировать", "сделать fork") репозитария с архивом в своём аккаунте. Главный репозитарий находиться по адресу [https://github.com/goswami-archive/archive](https://github.com/goswami-archive/archive).
-3. Внести свои изменения. Правила именования файлов/каталогов, а также правила оформления текста описаны в разделах [directories.md](../archive-structure/directories.md "mention") и [text-markup](../working-with-documents/text-markup/ "mention").
-4. Создать запрос на добавление своих изменений в главный репозитарий (pull request). Ваши изменения будут проверены и приняты, или отправлены на доработку с соответствующими коментариями.
-
+1. Create an account on [GitHub](https://github.com/signup).
+2. Clone archive repository to your account ("make a fork"). The main repository is located at [https://github.com/goswami-archive/archive](https://github.com/goswami-archive/archive).
+3. Contribute your changes. Naming rules for files/directories are described in the [Naming Conventions](naming.md) section. Documents formatting is described in and [Text Markup](../working-with-documents/text-markup/README.md) sections
+4. Create a pull request. Your changes will be reviewed and, if approved, will be merged into the main repository.  
