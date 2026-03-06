@@ -1,22 +1,74 @@
-# Заголовок YAML («YAML front matter»)
+# YAML Front Matter
 
-Помимо разметки самого текста, часто бывает необходимо хранить в документе техническую информацию о самом документе (например язык содержимого, дату создания, автора и т.д.). Для таких целей хорошо зарекомендовал себя подход с использованием вступительной части на [YAML](https://ru.wikipedia.org/wiki/YAML). Такой подход широко используется во многих статических генераторах Web-сайтов (Jekyll, Hugo, Assemble, Eleventy).
+It's ofter necessary to store technical information about the document itself (e.g. language, creation date, author and so on) in addition to the text. For such purposes YAML Front Matter is a good choice. It is widely used in static site generators (Jekyll, Hugo, Assemble, Eleventy).
 
-Разметка YAML основана на пробелах и переносах строк. YAML-документ состоит из полей (пар ключ-значение), располагающихся на отдельных строках. Допускаеться неограниченная вложенность полей. Для обозначения вложенности необходимо более 1 пробела (для читаемости рекомендуется 2 и более). Более подробное описание синтаксиса [YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started).
+See Wikipedias's [YAML](https://ru.wikipedia.org/wiki/YAML) page for more information.
 
-### **Общие правила YAML**
+YAML markup is based on spaces and line breaks. YAML document consists of fields (key-value pairs) located on separate lines. It is allowed to have unlimited nesting of fields. For indicating nesting it is necessary to have more than 1 space (for readability it is recommended to use 2 or more). More detailed description of the syntax can be found [here](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started).
 
-* YAML-документ отделяется тремя дефисами в начале и в конце;
-* пары ключ-значение располагаются на отделных строках;
-* табы запрещены;
-* комментарии начинаются с символа `#`.
+## Basic YAML rules
 
-**Пример**
+* YAML document is separated by three dashes in the beginning and in the end;
+* pairs of keys-values are located on separate lines;
+* tabs are forbidden;
+* comments start with `#`.
+
+**Example**
 
 ```yaml
 ---
 type: post
-title: "О Сарасвати Тхакуре"
+title: "About Saraswati Thakur"
+authors: 
+  - Bhakti Sudhar Gosvami
+date: 2012-02-12
+lang: en
+location: "Chiang Mai, Thailand"
+audio: https://youtube/?watch=...
+image: 
+  desktop: sarswati-thakur.jpg
+  alt: Saraswati Thakur with disciples
+slug: en-2012-02-12-about-saraswati-thakur
+tags:
+  - Saraswati Thakur
+translators:
+  - Amiya Sindhu Das
+transcribers:
+  - Amiya Sindhu Das
+---
+```
+
+## Entity Types
+
+Following types are used in the YAML front matter:
+* `post` - used for audio lectures and articles;
+* `category` - categories;
+* `playlist` - playlists.
+
+### `post` fields
+
+* [type](yaml.md#type) (required)
+* [title](yaml.md#title) (required)
+* [authors](yaml.md#authors) (required)
+* [lang](yaml.md#lang) (required)
+* [date](yaml.md#date)
+* [description](yaml.md#description)
+* [draft](yaml.md#draft)
+* [location](yaml.md#location)
+* [audio](yaml.md#audio)
+* [video](yaml.md#video)
+* [editors](yaml.md#editors)
+* [translators](yaml.md#translators)
+* [transcribers](yaml.md#transcribers)
+* [tags](yaml.md#tags)
+* [image](yaml.md#image)
+* [slug](yaml.md#slug)
+
+
+```yaml
+---
+type: post
+title: О Сарасвати Тхакуре
 authors: 
   - Бхакти Судхир Госвами
 date: 2012-02-12
@@ -36,71 +88,103 @@ transcribers:
 ---
 ```
 
-### **Поддерживаемые поля**
+### `category` and `playlist` fields
 
-#### `type`&#x20;
+* [type](yaml.md#type) (required)
+* [title](yaml.md#title) (required)
+* [lang](yaml.md#lang) (required)
+* [description](yaml.md#description)
+* [image](yaml.md#image)
+* [slug](yaml.md#slug)
 
-_Строка._
+**Example**
 
-Тип сущности. Допустимые значения: `post`, `category`, `playlist`.
+```yaml
+---
+type: category
+title: 2012
+lang: en
+image: 
+  desktop: en_2012.jpg
+---
+```
+
+### Fields description
+
+#### `type`
+
+_String._ (values: `post`, `category`, `playlist`)
+
+Entity type.
 
 #### `title`
 
-_Строка_.
+_String_.
 
-Название лекции, статьи, книги. Оборачивайте в двойные кавычки.
+Entity title. Use double quotes to preserve special characters.
 
-#### `authors`&#x20;
+#### `authors`
 
-_Список._
+_List_.
 
-Авторы текста, или спикеры.
+Speakers or authors of the text.
 
-#### `date`&#x20;
+#### `date`
 
-_Строка._
+_String._
 
-Дата записи аудио, публикации статьи в формате `гггг-мм-дд`.
+Date of audio recording or publication of the article in the format `YYYY-MM-DD`.
 
-#### `description`&#x20;
+#### `description`
 
-_Строка._
+_String._
 
-SEO-описание, не больше 200 символов. Оборачивайте в двойные кавычки
+SEO description. Maximum 200 characters. Uuse double quotes to preserve special characters.
 
-#### `lang`&#x20;
+#### `lang`
 
-_Строка._
+_String._
 
-Язык содержимого, 2-имвольный код в стандарте [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
+Content language, 2-letter code in the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) standard.
 
-#### `draft`&#x20;
+#### `status`
 
-_Строка (_`true`, `false`)
+_String_. (values: `draft`, `publish`)
 
-`draft: true` означает, что текст не готов к публикации.
+Content status.
 
-#### `location`&#x20;
+#### `location`
 
-_Строка._
+_String._
 
-Место записи лекции (город, страна).
+Place where a lecture was recorded.
 
-#### `audio`&#x20;
+#### `audio`
 
-_Строка._
+_Object._
 
-URL аудиозаписи, или относительный путь к локальному файлу.
+Object storing references to audio files. 
+Each key is a human readable source of the file and value is path to local file or URL.
+Path is relative to markdown file.
+There is always at least one `file` key, which points to the audio file itself.
 
-#### `video`&#x20;
+**Example**
+```yaml
+audio:
+  file: en_2012-02-12_About_Saraswati_Thakur.mp3
+  youtube: https://youtube/?watch=...
+  vimeo: https://vimeo/?watch=...
+```
 
-_Строка._
+#### `video`
+
+_String._
 
 URL видеозаписи, или относительный путь к локальному файлу.
 
-#### `editors`&#x20;
+#### `editors`
 
-_Список._
+_List_.
 
 Список редакторов.
 
@@ -112,9 +196,9 @@ editors:
 ---
 ```
 
-#### `translators`&#x20;
+#### `translators`
 
-_Список._
+_List_.
 
 Список переводчиков.
 
@@ -126,9 +210,9 @@ translators:
 ---
 ```
 
-#### `transcribers`&#x20;
+#### `transcribers`
 
-_Список._
+_List_.
 
 Список создателей транскрипции.
 
@@ -160,13 +244,13 @@ image:
 
 #### `slug`&#x20;
 
-_Строка._
+_String._
 
-Уникальная строка идентификатор, которая будет отображаться в URL страницы (в [kebab-case](https://medium.com/@alivander/camel-pascal-snake-case-%D0%B8-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5-%D1%81%D1%82%D0%B8%D0%BB%D0%B8-%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F-288ec62ca0d0)).
+Уникальная String идентификатор, которая будет отображаться в URL страницы (в [kebab-case](https://medium.com/@alivander/camel-pascal-snake-case-%D0%B8-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5-%D1%81%D1%82%D0%B8%D0%BB%D0%B8-%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F-288ec62ca0d0)).
 
 #### `tags`&#x20;
 
-_Список._
+_List_.
 
 Список тегов.
 
@@ -178,63 +262,3 @@ tags:
 ---
 ```
 
-### Поля для типа "post"
-
-* [type](yaml.md#type) (обязательное)
-* [title](yaml.md#title) (обязательное)
-* [authors](yaml.md#authors) (обязательное)
-* [lang](yaml.md#lang) (обязательное)
-* [date](yaml.md#date)
-* [description](yaml.md#description)
-* [draft](yaml.md#draft)
-* [location](yaml.md#location)
-* [audio](yaml.md#audio)
-* [video](yaml.md#video)
-* [editors](yaml.md#editors)
-* [translators](yaml.md#translators)
-* [transcribers](yaml.md#transcribers)
-* [tags](yaml.md#tags)
-* [image](yaml.md#image)
-* [slug](yaml.md#slug)
-
-```yaml
----
-type: post
-title: О Сарасвати Тхакуре
-authors: 
-  - Бхакти Судхир Госвами
-date: 2012-02-12
-lang: ru
-location: Чианг Май
-audio: https://youtube/?watch=...
-image: 
-  desktop: sarswati-thakur.jpg
-  alt: Сарсвати Тхакур с учениками
-slug: ru-2012-02-12-about-saraswati-thakur
-tags:
-  - Сарасвати Тхакур
-translators:
-  - Амия Синдху Дас
-transcribers:
-  - Амия Синдху Дас
----
-```
-
-### Поля для типа "category", "playlist"
-
-* [type](yaml.md#type) (обязательное)
-* [title](yaml.md#title) (обязательное)
-* [lang](yaml.md#lang) (обязательное)
-* [description](yaml.md#description)
-* [image](yaml.md#image)
-* [slug](yaml.md#slug)
-
-```yaml
----
-type: category
-title: 2012
-lang: ru
-image: 
-  desktop: ru_2012.jpg
----
-```
