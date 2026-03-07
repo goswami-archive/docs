@@ -21,7 +21,7 @@ type: post
 title: "About Saraswati Thakur"
 authors: 
   - Bhakti Sudhar Gosvami
-date: 2012-02-12
+date: "2012-02-12"
 lang: en
 location: "Chiang Mai, Thailand"
 audio: https://youtube/?watch=...
@@ -63,7 +63,9 @@ Following types are used in the YAML front matter:
 * [tags](yaml.md#tags)
 * [image](yaml.md#image)
 * [slug](yaml.md#slug)
+* [license](yaml.md#license)
 
+**Example**
 
 ```yaml
 ---
@@ -161,9 +163,9 @@ Place where a lecture was recorded.
 
 #### `audio`
 
-_Object._
+_Mapping._
 
-Object storing references to audio files. 
+Mapping containing references to audio files. 
 Each key is a human readable source of the file and value is path to local file or URL.
 Path is relative to markdown file.
 There is always at least one `file` key, which points to the audio file itself.
@@ -178,16 +180,25 @@ audio:
 
 #### `video`
 
-_String._
+_Mapping._
 
-URL видеозаписи, или относительный путь к локальному файлу.
+_Mapping containing references to video files. 
+Each key is a human readable video source and value is an URL.
+
+**Example**
+```yaml
+video:
+  youtube: https://youtube/?watch=...
+  vimeo: https://vimeo/?watch=...
+```
 
 #### `editors`
 
 _List_.
 
-Список редакторов.
+Editors list.
 
+**Example**
 ```yaml
 ---
 editors:
@@ -200,8 +211,9 @@ editors:
 
 _List_.
 
-Список переводчиков.
+Translators list.
 
+**Example**
 ```yaml
 ---
 translators:
@@ -214,8 +226,9 @@ translators:
 
 _List_.
 
-Список создателей транскрипции.
+Transcribers list.
 
+**Example**
 ```yaml
 ---
 transcribers:
@@ -224,35 +237,41 @@ transcribers:
 ---
 ```
 
-#### `image`&#x20;
+#### `image`
 
-_Обьект._
+_Mapping._
 
-Описание изображения, которое может применяться в качестве изображения записи:
+Image description, that can be used as a thumbnail. Following keys are available:
 
-* `desktop`: изображение для больших экранов&#x20;
-* `mobile`: изображение для маленьких экранов
-* `alt`: [алтернативный текст](https://htmlacademy.ru/blog/html/alt-text)
+* `desktop`: image for big screens
+* `mobile`: image for small screens
+* `alt`: [Alternative text](https://help.siteimprove.com/support/solutions/articles/80000863904-accessibility-image-alt-text-best-practices)
 
 ```yaml
 ---
 image: 
   desktop: sarswati-thakur.jpg
-  alt: Сарсвати Тхакур с учениками
+  alt: "Saraswati Thakur with disciples"
 ---
 ```
 
-#### `slug`&#x20;
+#### `slug`
 
 _String._
 
-Уникальная String идентификатор, которая будет отображаться в URL страницы (в [kebab-case](https://medium.com/@alivander/camel-pascal-snake-case-%D0%B8-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5-%D1%81%D1%82%D0%B8%D0%BB%D0%B8-%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F-288ec62ca0d0)).
+Unique human redable string identifier, that may be displayed in URL. 
+Use entity title leaving only alphanumeric characters delimiting words with dashes (so called 'kebab-case').
 
-#### `tags`&#x20;
+**Example**
+```yaml
+slug: en-2012-02-12-about-saraswati-thakur
+```
+
+#### `tags`
 
 _List_.
 
-Список тегов.
+Tag list.
 
 ```yaml
 ---
@@ -261,4 +280,11 @@ tags:
   - tag 2
 ---
 ```
+
+#### `license`
+
+_String_.
+
+License of the document. All archive documents are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
 
