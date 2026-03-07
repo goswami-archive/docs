@@ -182,7 +182,7 @@ audio:
 
 _Mapping._
 
-_Mapping containing references to video files. 
+Mapping containing references to video files. 
 Each key is a human readable video source and value is an URL.
 
 **Example**
@@ -260,7 +260,7 @@ image:
 _String._
 
 Unique human redable string identifier, that may be displayed in URL. 
-Use entity title leaving only alphanumeric characters delimiting words with dashes (so called 'kebab-case').
+At most straightforward way use entity title, leaving only alphanumeric characters and delimiting words with dashes (so called 'kebab-case').
 
 **Example**
 ```yaml
@@ -285,6 +285,11 @@ tags:
 
 _String_.
 
-License of the document. All archive documents are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+URL of license text. All archive documents are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+**Example**
+```yaml
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
+```
 
 
