@@ -13,8 +13,7 @@
 
 * [Shortcuts](working-with-documents/shortcuts.md)
 * [On semantic markup](working-with-documents/semantics.md)
-* [Document structure](working-with-documents/document-structure/README.md)
-  * [YAML front matter](working-with-documents/document-structure/yaml.md)
+* [Document structure](working-with-documents/document-structure.md)
 * [Punctuation](working-with-documents/punctuation.md)
 * [Text markup](working-with-documents/text-markup/README.md)
   * [Custom elements](working-with-documents/text-markup/custom-elements.md)
