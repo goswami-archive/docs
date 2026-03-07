@@ -1,19 +1,21 @@
-# Структура документа
+# Document structure
 
-Документ должен имееть следующую структуру:
+Each document should have the following structure:
 
-1. Заголовочная часть в формате YAML.
-2. Основное содержимое (опционально).
+1. Header section in the YAML format.
+2. Main content (optional).
 
-<pre><code>---
-<strong>YAML-заголовок
-</strong>---
+<pre>
+<code>
+---
+<strong>YAML-front matter</strong>
+---
+[main content]
+</code>
+</pre>
 
-[основной текст]
-</code></pre>
 
-
-## YAML Front Matter
+## YAML front matter
 
 It's ofter necessary to store technical information about the document itself (e.g. language, creation date, author and so on) in addition to the text. For such purposes YAML Front Matter is a good choice. It is widely used in static site generators (Jekyll, Hugo, Assemble, Eleventy).
 
