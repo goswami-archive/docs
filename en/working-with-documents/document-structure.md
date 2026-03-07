@@ -15,9 +15,7 @@ Each document should have the following structure:
 
 ## YAML front matter
 
-It's ofter necessary to store technical information about the document itself (e.g. language, creation date, author and so on) in addition to the text. For such purposes YAML Front Matter is a good choice. It is widely used in static site generators (Jekyll, Hugo, Assemble, Eleventy and others).
-
-See Wikipedias's [YAML](https://ru.wikipedia.org/wiki/YAML) page for more information.
+It's ofter necessary to store technical information about the document itself (e.g. language, creation date, author and so on) in addition to the text. For such purposes 'YAML front matter' pattern is widely used. It is used in many static site generators like Jekyll, Hugo, Assemble, Eleventy and others. See Wikipedias's [YAML](https://ru.wikipedia.org/wiki/YAML) page for more information.
 
 In YAML each document is separated by three dashes in the beginning and in the end.
 YAML markup is based on spaces and line breaks. YAML document consists of fields (key-value pairs) located on separate lines. It is allowed to have unlimited nesting of fields. For indicating nesting it is necessary to have more than 1 space (for readability it is recommended to use 2 or more). More detailed description of the syntax can be found [here](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started).
