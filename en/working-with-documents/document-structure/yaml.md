@@ -111,57 +111,57 @@ image:
 ---
 ```
 
-### Fields description
+## Fields description
 
-#### `type`
+### `type`
 
 _String._ (values: `post`, `category`, `playlist`)
 
 Entity type.
 
-#### `title`
+### `title`
 
 _String_.
 
 Entity title. Use double quotes to preserve special characters.
 
-#### `authors`
+### `authors`
 
 _List_.
 
 Speakers or authors of the text.
 
-#### `date`
+### `date`
 
 _String._
 
 Date of audio recording or publication of the article in the format `YYYY-MM-DD`.
 
-#### `description`
+### `description`
 
 _String._
 
 SEO description. Maximum 200 characters. Uuse double quotes to preserve special characters.
 
-#### `lang`
+### `lang`
 
 _String._
 
 Content language, 2-letter code in the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) standard.
 
-#### `status`
+### `status`
 
 _String_. (values: `draft`, `publish`)
 
 Content status.
 
-#### `location`
+### `location`
 
 _String._
 
 Place where a lecture was recorded.
 
-#### `audio`
+### `audio`
 
 _Mapping._
 
@@ -178,7 +178,7 @@ audio:
   vimeo: https://vimeo/?watch=...
 ```
 
-#### `video`
+### `video`
 
 _Mapping._
 
@@ -192,7 +192,7 @@ video:
   vimeo: https://vimeo/?watch=...
 ```
 
-#### `editors`
+### `editors`
 
 _List_.
 
@@ -207,7 +207,7 @@ editors:
 ---
 ```
 
-#### `translators`
+### `translators`
 
 _List_.
 
@@ -222,7 +222,7 @@ translators:
 ---
 ```
 
-#### `transcribers`
+### `transcribers`
 
 _List_.
 
@@ -237,7 +237,7 @@ transcribers:
 ---
 ```
 
-#### `image`
+### `image`
 
 _Mapping._
 
@@ -255,7 +255,7 @@ image:
 ---
 ```
 
-#### `slug`
+### `slug`
 
 _String._
 
@@ -267,7 +267,7 @@ At most straightforward way use entity title, leaving only alphanumeric characte
 slug: en-2012-02-12-about-saraswati-thakur
 ```
 
-#### `tags`
+### `tags`
 
 _List_.
 
@@ -281,7 +281,7 @@ tags:
 ---
 ```
 
-#### `license`
+### `license`
 
 _String_.
 
