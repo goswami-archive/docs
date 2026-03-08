@@ -15,7 +15,7 @@ Each document should have the following structure:
 
 ## YAML front matter
 
-It's ofter necessary to store technical information about the document itself (e.g. language, creation date, author and so on) in addition to the text. For such purposes 'YAML front matter' pattern is widely used. It is used in many static site generators like Jekyll, Hugo, Assemble, Eleventy and others. See Wikipedias's [YAML](https://ru.wikipedia.org/wiki/YAML) page for more information.
+It's ofter necessary to store technical information about the document itself (e.g. language, creation date, author and so on) in addition to the text. For such purposes a "YAML front matter" pattern widely used. It is used in many static site generators like Jekyll, Hugo, Assemble, Eleventy and others. See Wikipedias's [YAML](https://ru.wikipedia.org/wiki/YAML) page for more information.
 
 In YAML each document is separated by three dashes in the beginning and in the end.
 YAML markup is based on spaces and line breaks. YAML document consists of fields (key-value pairs) located on separate lines. It is allowed to have unlimited nesting of fields. For indicating nesting it is necessary to have more than 1 space (for readability it is recommended to use 2 or more). More detailed description of the syntax can be found [here](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started).
@@ -61,23 +61,23 @@ Following types are used in the YAML front matter:
 
 ### `post` fields
 
-* [type](yaml.md#type) (required)
-* [title](yaml.md#title) (required)
-* [authors](yaml.md#authors) (required)
-* [lang](yaml.md#lang) (required)
-* [date](yaml.md#date)
-* [description](yaml.md#description)
-* [draft](yaml.md#draft)
-* [location](yaml.md#location)
-* [audio](yaml.md#audio)
-* [video](yaml.md#video)
-* [editors](yaml.md#editors)
-* [translators](yaml.md#translators)
-* [transcribers](yaml.md#transcribers)
-* [tags](yaml.md#tags)
-* [image](yaml.md#image)
-* [slug](yaml.md#slug)
-* [license](yaml.md#license)
+* [type](document-structure.md#type) (required)
+* [title](document-structure.md#title) (required)
+* [authors](document-structure.md#authors) (required)
+* [lang](document-structure.md#lang) (required)
+* [date](document-structure.md#date)
+* [description](document-structure.md#description)
+* [draft](document-structure.md#draft)
+* [location](document-structure.md#location)
+* [audio](document-structure.md#audio)
+* [video](document-structure.md#video)
+* [editors](document-structure.md#editors)
+* [translators](document-structure.md#translators)
+* [transcribers](document-structure.md#transcribers)
+* [tags](document-structure.md#tags)
+* [image](document-structure.md#image)
+* [slug](document-structure.md#slug)
+* [license](document-structure.md#license)
 
 **Example**
 
@@ -106,12 +106,12 @@ transcribers:
 
 ### `category` and `playlist` fields
 
-* [type](yaml.md#type) (required)
-* [title](yaml.md#title) (required)
-* [lang](yaml.md#lang) (required)
-* [description](yaml.md#description)
-* [image](yaml.md#image)
-* [slug](yaml.md#slug)
+* [type](document-structure.md#type) (required)
+* [title](document-structure.md#title) (required)
+* [lang](document-structure.md#lang) (required)
+* [description](document-structure.md#description)
+* [image](document-structure.md#image)
+* [slug](document-structure.md#slug)
 
 **Example**
 
